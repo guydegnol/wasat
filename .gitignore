@@ -1,0 +1,54 @@
+# Pycharm
+.idea/
+
+# Sphinx
+docs/_build
+
+# Virtual env
+*env
+
+
+**.ipynb_checkpoints/*
+
+*.py[cod]
+.cookiecutter
+*.ipynb
+notebooks/.ipynb_checkpoints/*
+.vscode/*
+
+# Packages
+*.egg
+*.egg-info
+.eggs
+dist
+build
+eggs
+parts
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+
+colab_installer.py
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+.noseids
+nosetests.xml
+.scripttest
+
+# Translations
+*.mo
+
+# Complexity
+output/*.html
+output/*/index.html
+
+Makefile
+W-Net-Keras/
