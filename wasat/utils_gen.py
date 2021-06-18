@@ -2,7 +2,7 @@ import os
 import cv2
 import h5py
 import numpy as np
-from utils_imgproc import smallize_density_map, fix_singular_shape
+from .utils_imgproc import smallize_density_map, fix_singular_shape
 
 
 def gen_paths_img_dm(path_file_root="data/paths_train_val_test", dataset="A"):
